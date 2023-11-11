@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Rajdhani:wght@400;500;700&family=Sedgwick+Ave+Display&display=swap');
+
+.ic {
+    width: 300px;
+}
+
+.ic p {
+    width: 200px;
+    margin-left: 50px;
+}
+.ic p:hover,.ic h4:hover,.ic h3:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.ic img:hover {
+    scale: 1.1;
+}

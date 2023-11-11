@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Rajdhani:wght@400;500;700&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+nav.main-nav{
+    margin-bottom: 10px;
+}
+.sales{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+}
+.sales i{
+
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    z-index: 99;
+}
+.sales span{
+    cursor: pointer;
+}
+.sales i:hover,header .sales span:hover{
+    color: #eb0028;
+}
+.main-nav {
+    background-color: white !important;
+}
+nav .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani';
+    
+}
+nav .side-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Rajdhani';
+    
+}
+a{
+    color: #000 !important;
+}
+nav .nav-menu a:hover{
+    color: #eb0028 !important;
+    transition: all 0.2s linear;
+}
+nav .icons svg{
+    display: block;
+    width: 20px !important;
+    color: #000000 ;
+    height: 20px;
+}
+nav .toggle-button {
+    display: none;
+}
+a {
+    text-decoration: none !important;
+}
+aside {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 999;
+    transition: 1s ease-in-out;
+    transform: translate(-100%);
+}
+aside.active{
+    transform: translate(0) !important;
+}
+
+aside nav {
+
+    width: 300px;
+    background-color: rgb(255, 255, 255) !important;
+    height: 87vh;
+    margin-top: 0px;
+    padding-top: 30px;
+    border-radius: 0 10px;
+    transition: 1s ease-in-out;
+}
+
+    
+aside .menu a {
+    text-align: left !important;
+    padding:5px 20px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav .side-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Rajdhani';
+    
+}
+nav .sales a:hover{
+    color: #998487 !important;
+    transition: all 0.1s linear;
+    border-radius: 20px;
+}
+
+aside .menu a:hover {
+    background-color: #e5e5e5;
+    transition: 1s ease-in-out;
+}
+
+@media screen and (max-width : 768px){
+    .sales{
+        height: 30px;
+    }
+    .sales h4{
+        font-size: 10px !important;
+        padding-bottom: 20px !important;
+        
+    }
+    .sales i{
+        font-size: 18px !important;
+    }
+    nav .navbar-brand img {
+        width: 100px;
+        height: 30px;
+    }
+
+    nav .toggle-button {
+        display: block;
+    }
+
+    nav .nav-menu {
+        display: none;
+    }
+}

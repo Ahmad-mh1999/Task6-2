@@ -1,0 +1,13 @@
+.Sec2{
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Sec2{
+        margin-top: 600px;
+    }
+    img.sec2-image{
+        width: 80%;
+        object-fit: cover;
+    }
+}

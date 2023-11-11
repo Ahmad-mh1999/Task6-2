@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Rajdhani:wght@400;500;700&family=Sedgwick+Ave+Display&display=swap');
+
+
+h1 {
+    font-family: 'Rajdhani', sans;
+    letter-spacing: 4px; 
+
+}
+@media screen and (max-width : 768px){
+    .section1{
+        margin-top: 300px !important;
+        text-align: center;
+        height: max-content;
+    }
+}

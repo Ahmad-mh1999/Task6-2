@@ -1,0 +1,10 @@
+.Sec3{
+    margin-top: 500px;
+}
+
+
+@media screen and (max-width : 768px){
+    .Sec3{
+        margin-top: 900px;
+    }
+}

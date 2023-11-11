@@ -1,0 +1,125 @@
+footer .up-container{
+    
+    background-image: url('./../../image//footer.jpg');
+    height: 100vh !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffffff;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-family:'Rajdhani' ;
+    position: relative;
+}
+
+footer .title h1{
+    font-size: 40px !important;
+    
+}
+footer .email-id input{
+    width: 400px;
+    height: 49px;
+    padding-left: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+
+}
+footer .email-id i{
+    background-color: #000;
+    text-align: center;
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 999;
+}
+footer .footer-anchor{
+    padding-top: 100px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+footer .footer-anchor a{
+    padding-right: 20px;
+    color: #fff;
+    
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Roboto ' !important ;
+    font-weight: 500;
+}
+footer .footer-anchor a:not(:last-child)::after{
+    content: '';
+    width: 3px;
+    height: 21px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    
+}
+footer .footer-anchor a:hover{
+    color: #eb0028;
+    transition: all 0.3s linear;
+}
+footer .down-container{
+    width: 100%;
+
+}
+footer .down-container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(236, 236, 236);
+    flex-wrap: wrap;
+}
+footer .down-container .content a{
+    color: #000 !important;
+}
+footer .down-container .content a:hover{
+    color: #eb0028 !important;
+}
+
+.svg a img{
+    width: 80px !important;
+    height: 40px !important;
+}
+
+@media screen and (max-width : 768px){
+    footer .title h1{
+        font-size: 22px !important;
+    }
+    footer .footer-anchor{
+        width: 350px;
+        padding-top: 25px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer .footer-anchor a:not(:last-child)::after{
+        display: none;
+    }
+    footer .email-id input{
+        width: 250px !important;
+        
+    }
+    
+}

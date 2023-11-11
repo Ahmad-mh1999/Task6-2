@@ -1,0 +1,60 @@
+
+.spec-info,
+.spec-info2 {
+    width: 250px;
+
+}
+.spec-info2 {
+    margin-top: 150px;
+}
+.spec-info::before {
+    content: '';
+    width: 2px;
+    height: 315px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 290px;
+}
+
+.spec-info2::before {
+    content: '';
+    width: 2px;
+    height: 380px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 225px;
+}
+.point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: relative;
+    bottom: 442px;
+    left: 130px;
+    z-index: 99;
+}
+
+.point2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: relative;
+    bottom: 442px;
+    left: 130px;
+    z-index: 99;
+}
+.Ah-spinner{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .spec-info::before ,
+    .spec-info2::before ,
+    .point,
+    .point2 {
+        display: none;
+    }
+}
