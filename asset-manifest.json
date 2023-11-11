@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Task6-2/static/css/main.fe65b11b.css",
+    "main.js": "/Task6-2/static/js/main.87245384.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Task6-2/static/js/787.28cb0dcd.chunk.js",
+    "static/media/footer.jpg": "/Task6-2/static/media/footer.3206be523f41a94ec6f1.jpg",
+    "static/media/phono-slider-1.jpeg": "/Task6-2/static/media/phono-slider-1.157b4b4b421e7105db2f.jpeg",
+    "static/media/p9.jpg": "/Task6-2/static/media/p9.4779ead495245ba7edae.jpg",
+    "static/media/center-img-sec3.jpeg": "/Task6-2/static/media/center-img-sec3.8e0024e1cf15a68752e1.jpeg",
+    "static/media/phono-slider-3.jpeg": "/Task6-2/static/media/phono-slider-3.7c60752916bb0fbbe844.jpeg",
+    "static/media/phono-slider-2.jpeg": "/Task6-2/static/media/phono-slider-2.8b009aa9befedf0ac97f.jpeg",
+    "static/media/discover-4.svg": "/Task6-2/static/media/discover-4.9f8a31de36a2957e6576bed22a899567.svg",
+    "static/media/bg-1-sec6.jpeg": "/Task6-2/static/media/bg-1-sec6.b2ff1b55944c7c785e96.jpeg",
+    "static/media/hotspot-sec2.jpeg": "/Task6-2/static/media/hotspot-sec2.1a0331438c7cea3ba3e3.jpeg",
+    "static/media/sec6-main-image.jpeg": "/Task6-2/static/media/sec6-main-image.d8cfb5fb108bb8535e7c.jpeg",
+    "static/media/p23.jpg": "/Task6-2/static/media/p23.7446caa2757f5f4188d5.jpg",
+    "static/media/p15.jpg": "/Task6-2/static/media/p15.53c06f49b3f12169d7c5.jpg",
+    "static/media/p10.jpg": "/Task6-2/static/media/p10.03b99fb99638d6d501ed.jpg",
+    "static/media/revicons.eot": "/Task6-2/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Task6-2/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/p20.jpg": "/Task6-2/static/media/p20.00fb6ca2eae8cef2f485.jpg",
+    "static/media/mastercard-6.svg": "/Task6-2/static/media/mastercard-6.d855b61572180233bc8d6060be86a25c.svg",
+    "static/media/revicons.woff": "/Task6-2/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/paypal-3.svg": "/Task6-2/static/media/paypal-3.09d2416af60a33c7fafd72e5d69c8785.svg",
+    "static/media/ic13.avif": "/Task6-2/static/media/ic13.a0d72c5f3bec1aa1ddf3.avif",
+    "static/media/gamex.svg": "/Task6-2/static/media/gamex.35a39ac042b4f48717db15fb4fa86067.svg",
+    "static/media/visa-10.svg": "/Task6-2/static/media/visa-10.a832f682ed43e496bcbeebb6f2aa31e1.svg",
+    "index.html": "/Task6-2/index.html",
+    "main.fe65b11b.css.map": "/Task6-2/static/css/main.fe65b11b.css.map",
+    "main.87245384.js.map": "/Task6-2/static/js/main.87245384.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Task6-2/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe65b11b.css",
+    "static/js/main.87245384.js"
+  ]
+}
